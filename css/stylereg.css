@@ -1,0 +1,45 @@
+* {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+   
+}
+body {
+    background-image: radial-gradient(circle 675px at center,#ffffff 0%, #ccdef0);
+    background-color: #ccdef0;
+}
+.ramka {
+   
+    margin-left: auto;
+    margin-right: auto;
+    width:  450px;
+}
+ul{
+    padding-left: 0px;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    height: 35px;
+}
+li>label {
+
+    margin:0px;
+    width: auto;
+    height: 1em;
+    box-sizing: border-box;
+
+}
+li>input {
+    height: 25px;
+    width: 210px;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+
+.knopka {
+    margin-left: auto;
+    margin-right: auto;
+    width:  450px;
+}

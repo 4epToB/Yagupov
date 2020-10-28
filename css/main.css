@@ -1,0 +1,44 @@
+* {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 300;
+    
+   
+}
+body { 
+
+    background-image: radial-gradient(circle 675px at center,#ffffff 0%, #ccdef0);
+    background-color: #ccdef0;
+
+}
+.auth{
+    font-size: 10px;
+    width: 230px;
+    text-align: right;
+}
+.reg{
+    display: inline-block;
+    font-size: 14px;
+    width: 230px;
+    text-align: right;
+}
+div>button{
+    font-size: 7px;
+    height: 14px;
+}
+
+
+ul{
+    padding-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+li{
+    margin: 40px;
+    display: inline ;
+    border: solid 1px grey;
+}
+
+a{
+    text-decoration:none;
+    
+}
