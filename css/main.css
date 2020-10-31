@@ -64,16 +64,29 @@ a:visited{
     display: block;
 }
 .regform{
-    background-color: khaki;
-    width: 50%;
-    left: 25% ;
-    position: relative;
     display: none;
-
 }
-.regform:target{
+.form-container{
+    display: none;
+}
+.form-container:target{
     display: block;
+    background-color: rgb(128, 208, 240);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
 }
+.form-container:target+.regform{
+    display: block;
+    background-color: rgb(182, 152, 182);
+    width: 100%;
+    display: block;
+    position: fixed;
+}
+
 [type=button]{
     padding: 0px;
 }
@@ -88,7 +101,8 @@ li{
 .ramka {
     margin-left: auto;
     margin-right: auto;
-    width:  100%;
+    width:  500px;
+    opacity: 1; 
 }
 form ul{
     padding-left: 0px;
